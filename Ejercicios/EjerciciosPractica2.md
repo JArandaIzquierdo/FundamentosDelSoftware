@@ -100,11 +100,19 @@ Para hacer este ejercicio nos situamos siempre en el directorio ejercicio1
 ##### Ejercicio 2.7. Desplacémonos hasta el directorio /bin, genere los siguientes listados de archivos (siempre de la forma más compacta y utilizando los metacaracteres apropiados):
 	a) Todos los archivos que contengan sólo cuatro caracteres en su nombre.
     
+    	-
+    
 	b) Todos los archivos que comiencen por los caracteres d, f.
+    
+    	- $ ls d* f*
     
 	c) Todos los archivos que comiencen por las parejas de caracteres sa, se, ad.
     
+    	- $ ls sa* se* ad*
+    
 	d) Todos los archivos que comiencen por t y acaben en r.
+    
+    	- $ ls t*r
     
 ##### Ejercicio 2.8. Liste todos los archivos que comiencen por tem y terminen por .gz o .zip :
 	a) De tu directorio HOME.
