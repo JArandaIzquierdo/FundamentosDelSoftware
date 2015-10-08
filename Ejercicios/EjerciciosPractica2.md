@@ -134,6 +134,9 @@ Para hacer este ejercicio nos situamos siempre en el directorio ejercicio1
     	- tail -5 archivo.txt
 
 ##### Ejercicio 2.10. Cree un archivo empleando para ello cualquier editor de textos y escriba en el mismo varias palabras en diferentes líneas. A continuación trate de mostrar su contenido de manera ordenada empleando diversos criterios de ordenación.
+	- $ sort hola.txt  Ordena las lineas del documento situando en primer lugar las que empiezan por numeros y despues ordenandolas por orden alfabetico segun empiece cada linea
+
+	- $ sort -r hola.txt  Ordena las lineas del documento totalmente al contraria que el caso anterior
 
 
 ##### Ejercicio 2.11. ¿Cómo podría ver el contenido de todos los archivos del directorio actual que terminen en .txt o .c?
