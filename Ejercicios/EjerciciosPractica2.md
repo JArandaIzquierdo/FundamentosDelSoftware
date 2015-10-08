@@ -18,7 +18,10 @@
     	- touch readme2.pdf
     
 	d) En Ejer3 cree los archivos ejer3arch.txt, ejer3filetags.txt y readme3.pdf.
-    
+    	- touch ejer3arch.txt
+    	- touch ejer3filetags.txt
+    	- touch readme3.pdf
+    	
 	e) ¿Podrían realizarse las acciones anteriores empleando una única orden? Indique cómo.
 
 ![](https://github.com/JArandaIzquierdo/FundamentosDelSoftware/blob/master/images/Ejercicio2-1.png)
