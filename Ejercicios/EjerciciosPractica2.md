@@ -56,12 +56,19 @@ Para hacer este ejercicio nos situamos siempre en el directorio ejercicio1
 ##### Ejercicio 2.5. La organización del espacio en directorios es fundamental para poder localizar fácilmente aquello que estemos buscando. En ese sentido, realice las siguientes acciones dentro de su directorio home (es el directorio por defecto sobre el que trabajamos al entrar en el sistema):
 	a) Obtenga en nombre de camino absoluto (pathname absoluto) de su directorio home. ¿Es el mismo que el de su compañero/a?
     
+    	- Nos es el mismo que el de mi compañero, en mi caso es: /home/javia
+    
 	b) Cree un directorio para cada asignatura en la que se van a realizar prácticas de laboratorio y, dentro de cada directorio, nuevos directorios para cada una de las prácticas realizadas hasta el momento.
+    
+    	- Para crear esto directorios lo haremos con la orden mkdir seguido del nombre de los directorios.
     
 	c) Dentro del directorio de la asignatura fundamentos del software (llamado FS) y dentro del directorio creado para esta práctica, copie los archivos hosts y passwd que se encuentran dentro del directorio /etc.
     
-	d) Muestre el contenido de cada uno de los archivos.
+    	- $ cp -a /etc/hosts -a /etc/passwd ~/Escuela/FS/Practicas
     
+	d) Muestre el contenido de cada uno de los archivos.
+     
+     	- Para mostrar el contenido de cada uno de los archivos utilizamos la orden cat, por ejemplo: $ cat hosts  o $ cat passwd 
 
 
 ##### Ejercicio 2.6. Situados en algún lugar de su directorio principal de usuario (directorio HOME), cree los directorios siguientes: Sesion.1, Sesion.10, Sesion.2, Sesion.3, Sesion.4, Sesion.27, Prueba.1 y Sintaxis.2 y realice las siguientes tareas:
