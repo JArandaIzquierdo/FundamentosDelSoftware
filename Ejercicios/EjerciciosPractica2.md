@@ -2,36 +2,46 @@
 
 ##### Ejercicio 2.1. Cree el siguiente árbol de directorios a partir de un directorio de su cuenta de usuario. Indique también cómo sería posible crear toda esa estructura de directorios mediante una única orden (mire las opciones de la orden de creación de directorios mediante man mkdir). Posteriormente realice las siguientes acciones:
 	a) En Ejer1 cree los archivos arch100.txt, filetags.txt, practFS.ext y robet201.me.
-		- touch arch100.txt
-		- touch filetags.txt
-		- touch practFS.ext
-		- touch robet201.me
+		- $ touch arch100.txt
+		- $ touch filetags.txt
+		- $ touch practFS.ext
+		- $ touch robet201.me
     
 	b) En Ejer21 cree los archivos robet202.me, ejer11sol.txt y blue.me.
-    	- touch robet202.me
-    	- touch ejer11sol.txt
-    	- touch blue.me
+    	- $ touch robet202.me
+    	- $ touch ejer11sol.txt
+    	- $ touch blue.me
     	
 	￼￼￼￼￼c) En Ejer2 cree los archivos ejer2arch.txt, ejer2filetags.txt y readme2.pdf.
-    	- touch ejer2arch.txt
-    	- touch ejer2filetags.txt
-    	- touch readme2.pdf
+    	- $ touch ejer2arch.txt
+    	- $ touch ejer2filetags.txt
+    	- $ touch readme2.pdf
     
 	d) En Ejer3 cree los archivos ejer3arch.txt, ejer3filetags.txt y readme3.pdf.
-    	- touch ejer3arch.txt
-    	- touch ejer3filetags.txt
-    	- touch readme3.pdf
+    	- $ touch ejer3arch.txt
+    	- $ touch ejer3filetags.txt
+    	- $ touch readme3.pdf
     	
 	e) ¿Podrían realizarse las acciones anteriores empleando una única orden? Indique cómo.
 
 ![](https://github.com/JArandaIzquierdo/FundamentosDelSoftware/blob/master/images/Ejercicio2-1.png)
     
 ##### Ejercicio 2.2. Situados en el directorio ejercicio1 creado anteriormente, realice las siguientes acciones:
+
+Para hacer este ejercicio nos situamos siempre en el directorio ejercicio1
+    
 	a) Mueva el directorio Ejer21 al directorio Ejer2.
     
+    	- $ mv Ejer1/Ejer21 Ejer2
+    	
 	b) Copie los archivos de Ejer1 cuya extensión tenga una x al directorio Ejer3.
     
+    	- $ cp Ejer1/*.*x* Ejer3
+        
 	c) Si estamos situado en el directorio Ejer2 y ejecutamos la orden ls -la ../Ejer3/*arch*, ¿qué archivo/s, en su caso, debería mostrar?
+    
+    	- arch100.txt
+    	- ejer3arch.txt 
     
 ##### Ejercicio 2.3. Si estamos situados en el directorio Ejer2, indique la orden necesaria para listar sólo los nombres de todos los archivos del directorio padre.
 
