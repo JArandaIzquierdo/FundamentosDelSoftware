@@ -23,6 +23,8 @@
     	- $ touch readme3.pdf
     	
 	e) ¿Podrían realizarse las acciones anteriores empleando una única orden? Indique cómo.
+    	Se haria con la orden touch seguido de los nombre de los archivos a crear junto con su extension separado por espacios. Por ejemplo:
+        - $ touch robet22.me ejer11sol.txt blue.me
 
 ![](https://github.com/JArandaIzquierdo/FundamentosDelSoftware/blob/master/images/Ejercicio2-1.png)
     
