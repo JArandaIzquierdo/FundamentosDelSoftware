@@ -2,10 +2,20 @@
 
 ##### Ejercicio 2.1. Cree el siguiente árbol de directorios a partir de un directorio de su cuenta de usuario. Indique también cómo sería posible crear toda esa estructura de directorios mediante una única orden (mire las opciones de la orden de creación de directorios mediante man mkdir). Posteriormente realice las siguientes acciones:
 	a) En Ejer1 cree los archivos arch100.txt, filetags.txt, practFS.ext y robet201.me.
+		- touch arch100.txt
+		- touch filetags.txt
+		- touch practFS.ext
+		- touch robet201.me
     
 	b) En Ejer21 cree los archivos robet202.me, ejer11sol.txt y blue.me.
-    
+    	- touch robet202.me
+    	- touch ejer11sol.txt
+    	- touch blue.me
+    	
 	￼￼￼￼￼c) En Ejer2 cree los archivos ejer2arch.txt, ejer2filetags.txt y readme2.pdf.
+    	- touch ejer2arch.txt
+    	- touch ejer2filetags.txt
+    	- touch readme2.pdf
     
 	d) En Ejer3 cree los archivos ejer3arch.txt, ejer3filetags.txt y readme3.pdf.
     
@@ -49,7 +59,7 @@
     
 	f) Liste aquellos directorios cuyos nombres contengan los caracteres si y terminen en .2
     
-###### Ejercicio 2.7. Desplacémonos hasta el directorio /bin, genere los siguientes listados de archivos (siempre de la forma más compacta y utilizando los metacaracteres apropiados):
+##### Ejercicio 2.7. Desplacémonos hasta el directorio /bin, genere los siguientes listados de archivos (siempre de la forma más compacta y utilizando los metacaracteres apropiados):
 	a) Todos los archivos que contengan sólo cuatro caracteres en su nombre.
     
 	b) Todos los archivos que comiencen por los caracteres d, f.
