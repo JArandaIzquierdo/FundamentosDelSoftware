@@ -104,18 +104,20 @@ Para hacer este ejercicio nos situamos siempre en el directorio ejercicio1
     
 	b) Todos los archivos que comiencen por los caracteres d, f.
     
-    	- $ ls d* f*
+    	- $ ls -a d* f*
     
 	c) Todos los archivos que comiencen por las parejas de caracteres sa, se, ad.
     
-    	- $ ls sa* se* ad*
+    	- $ ls -a sa* se* ad*
     
 	d) Todos los archivos que comiencen por t y acaben en r.
     
-    	- $ ls t*r
+    	- $ ls -a t*r
     
 ##### Ejercicio 2.8. Liste todos los archivos que comiencen por tem y terminen por .gz o .zip :
 	a) De tu directorio HOME.
+    
+    	- $ ls tem*.gz tem*.zip	
     
 	b) Del directorio actual.
     
@@ -125,7 +127,11 @@ Para hacer este ejercicio nos situamos siempre en el directorio ejercicio1
 ##### Ejercicio 2.9. Muestre del contenido de un archivo regular que contenga texto:
 	a) Las 10 primeras líneas.
     
+    	- $ head archivo.txt
+    
 	b) Las 5 últimas líneas.
+    
+    	- tail -5 archivo.txt
 
 ##### Ejercicio 2.10. Cree un archivo empleando para ello cualquier editor de textos y escriba en el mismo varias palabras en diferentes líneas. A continuación trate de mostrar su contenido de manera ordenada empleando diversos criterios de ordenación.
 
