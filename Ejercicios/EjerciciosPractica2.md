@@ -74,13 +74,23 @@ Para hacer este ejercicio nos situamos siempre en el directorio ejercicio1
 ##### Ejercicio 2.6. Situados en algún lugar de su directorio principal de usuario (directorio HOME), cree los directorios siguientes: Sesion.1, Sesion.10, Sesion.2, Sesion.3, Sesion.4, Sesion.27, Prueba.1 y Sintaxis.2 y realice las siguientes tareas:
 	a) Borre el directorio Sesion.4
     
+    	- $ rm -d Sesion.4 , ya que el directorio esta vacio, utilizamos la funcion -d
+    
 	b) Liste todos aquellos directorios que empiecen por Sesion. y a continuación tenga un único carácter
+    
+    	- $ ls Sesion.?
     
 	c) Liste aquellos directorios cuyos nombres terminen en .1
     
+    	- $ ls *.1
+    
 	d) Liste aquellos directorios cuyos nombres terminen en .1 o .2
     
+    	- $ ls *.[12]
+    
 	e) Liste aquellos directorios cuyos nombres contengan los caracteres si
+    
+    	- $ 
     
 	f) Liste aquellos directorios cuyos nombres contengan los caracteres si y terminen en .2
     
@@ -110,3 +120,5 @@ Para hacer este ejercicio nos situamos siempre en el directorio ejercicio1
 
 
 ##### Ejercicio 2.11. ¿Cómo podría ver el contenido de todos los archivos del directorio actual que terminen en .txt o .c?
+
+	- $ cat *.txt *.c
