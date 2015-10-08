@@ -86,14 +86,17 @@ Para hacer este ejercicio nos situamos siempre en el directorio ejercicio1
     
 	d) Liste aquellos directorios cuyos nombres terminen en .1 o .2
     
-    	- $ ls *.[12]
+    	- $ ls -d *.[12]
     
 	e) Liste aquellos directorios cuyos nombres contengan los caracteres si
     
-    	- $ 
+    	- Tras probar que el comando $ ls -d *{si}* no funciona, necesitamos 2 o mas partones dentro de {} separado por comas para que funcione, utilizo el comando: 
+    		- $ ls *si*	  
     
 	f) Liste aquellos directorios cuyos nombres contengan los caracteres si y terminen en .2
     
+    	- $ ls -d *si*.2
+    	
 ##### Ejercicio 2.7. Desplacémonos hasta el directorio /bin, genere los siguientes listados de archivos (siempre de la forma más compacta y utilizando los metacaracteres apropiados):
 	a) Todos los archivos que contengan sólo cuatro caracteres en su nombre.
     
