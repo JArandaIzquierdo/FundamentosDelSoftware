@@ -45,6 +45,8 @@ Para hacer este ejercicio nos situamos siempre en el directorio ejercicio1
     
 ##### Ejercicio 2.3. Si estamos situados en el directorio Ejer2, indique la orden necesaria para listar sólo los nombres de todos los archivos del directorio padre.
 
+	$ ls ../*.*
+
 ##### Ejercicio 2.4. Liste los archivos que estén en su directorio actual y fíjese en alguno que no disponga de la fecha y hora actualizada, es decir, la hora actual y el día de hoy. Ejecute la orden touch sobre dicho archivo y observe qué sucede sobre la fecha del citado archivo cuando se vuelva a listar.
 
 
