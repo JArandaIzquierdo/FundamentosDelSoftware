@@ -26,12 +26,15 @@
 ##### Ejercicio 3.2. Utilizando solamente las órdenes de la práctica anterior y los metacaracteres de redirección de salida:
 	- Cree un archivo llamado ej31 , que contendrá el nombre de los archivos del directorio padre del directorio de trabajo.
 
+	$ ls .. > ej31
 
 	- Cree un archivo llamado ej32 , que contendrá las dos últimas líneas del archivo creado en el ejercicio anterior.
 
-
+	$ tail -2 ej31 > ej32
 
 	- Añada al final del archivo ej32 , el contenido del archivo ej31 .
+	
+    $ cat ej32 >> ej31
 
 ##### Ejercicio 3.3. Utilizando el metacarácter de creación de cauces y sin utilizar la orden cd:
 	- Muestre por pantalla el listado (en formato largo) de los últimos 6 archivos del directorio /etc.
