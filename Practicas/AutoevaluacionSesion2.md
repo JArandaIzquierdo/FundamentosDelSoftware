@@ -8,6 +8,7 @@
      - $ cd
      - $ cd ~
      - $ cd /home/javi
+     - $ cd $HOME
 
 	b) Qué orden debe indicar para listar de su directorio de usuario aquellos archivos “ocultos” cuyo nombre comienza por .g o .c seguido de uno o más caracteres.
     
