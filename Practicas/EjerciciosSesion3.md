@@ -4,23 +4,23 @@
 􏰆 􏰆 􏰆 􏰆 􏰆
 	- Dar permiso de ejecución al “resto de usuarios”.
 
-	
+	$ chmod o+x archivo
 
 	- Dar permiso de escritura y ejecución al “grupo”.
 
-	
+	$ chmod g+wx archivo
 
 	- Quitar el permiso de lectura al “grupo” y al “resto de usuarios”.
 
-
+	$ chmod go-r archivo
 
 	- Dar permiso de ejecución al “propietario” y permiso de escritura el “resto de usuarios”.
 
-
+	$ chmod u+x, o+w archivo
 
 	- Dar permiso de ejecución al “grupo” de todos los archivos cuyo nombre comience con la letra “e”. Nota: Si no hay más de dos archivos que cumplan esa condición, se deberán crear archivos que empiecen con “e” y/o modificar el nombre de archivos ya existentes para que cumplan esa condición.
 
-
+	$ chmod g+x e*
 
 
 ##### Ejercicio 3.2. Utilizando solamente las órdenes de la práctica anterior y los metacaracteres de redirección de salida:
