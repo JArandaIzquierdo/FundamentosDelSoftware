@@ -100,7 +100,7 @@ Para hacer este ejercicio nos situamos siempre en el directorio ejercicio1
 ##### Ejercicio 2.7. Desplacémonos hasta el directorio /bin, genere los siguientes listados de archivos (siempre de la forma más compacta y utilizando los metacaracteres apropiados):
 	a) Todos los archivos que contengan sólo cuatro caracteres en su nombre.
     
-    	-
+    	- ls -a ????
     
 	b) Todos los archivos que comiencen por los caracteres d, f.
     
