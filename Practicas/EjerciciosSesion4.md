@@ -5,9 +5,11 @@
 #####Ejercicio 4.1
 #####Escriba, al menos, cinco variables de entorno junto con el valor que tienen.
 
-
-
-
+	TERM_PROGRAM=Apple_Terminal
+	TERM=xterm-256color
+	SHELL=/bin/bash
+	CLICOLOR=1
+	HOME=/Users/JaviAir
 
 
 #####Ejercicio 4.2
