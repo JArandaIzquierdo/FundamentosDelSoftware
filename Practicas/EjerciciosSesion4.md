@@ -20,6 +20,7 @@
 	$ bash
 	$ echo $NOMBRE
 
+$ NOMBRE solo es visible en el shell actual. Al cambiar el shell no podemos acceder a la variable anteriormente definida. Para exportar una variable a otro shell utilizamos las orden $ export variable
 
 #####Ejercicio 4.3
 #####Compruebe qué ocurre en las expresiones del ejemplo si se quitan las comillas dobles del final y se ponen después de los dos puntos. ¿Qué sucede si se sustituyen las comillas dobles por comillas simples?
