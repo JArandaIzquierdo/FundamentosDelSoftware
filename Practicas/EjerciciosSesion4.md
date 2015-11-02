@@ -30,13 +30,16 @@ $ NOMBRE solo es visible en el shell actual. Al cambiar el shell no podemos acce
 
 Si pones las dobles comillas despues de los dos puntos, la orden sigue funcionando pero se vera la frase del echo seguida de la lista de los archivos y directorios de esa ruta pero uno detras de otros.
 
-Sustituir las comillas dobles por las simples no funciona, el echo muestra tambien la orden $(ls -l)
+Sustituir las comillas dobles por las simples no funciona, el echo muestra tambien la orden $(ls -l).
 
 
 #####Ejercicio 4.4
 #####Pruebe la siguiente asignación:
 	 $ numero=$numero+1
      $ echo $numero
+#####¿Que ha ocurrido?
+
+El valor que se le asigna a la variables es esta cadena de caracteres: +1
 
 
 #####Ejercicio 4.5
