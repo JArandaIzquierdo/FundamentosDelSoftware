@@ -28,7 +28,9 @@ $ NOMBRE solo es visible en el shell actual. Al cambiar el shell no podemos acce
 	$ echo “Los archivos que hay en el directorio son: $(ls -l)”
     $ echo “Los archivos que hay en el directorio son: `ls -l`”
 
+Si pones las dobles comillas despues de los dos puntos, la orden sigue funcionando pero se vera la frase del echo seguida de la lista de los archivos y directorios de esa ruta pero uno detras de otros.
 
+Sustituir las comillas dobles por las simples no funciona, el echo muestra tambien la orden $(ls -l)
 
 
 #####Ejercicio 4.4
