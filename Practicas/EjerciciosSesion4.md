@@ -45,6 +45,13 @@ El valor que se le asigna a la variables es esta cadena de caracteres: +1
 #####Ejercicio 4.5
 #####Construya un guion que acepte como argumento una cadena de texto (por ejemplo, su nombre) y que visualice en pantalla la frase Hola y el nombre dado como argumento.
 
+El script seria este:
+```shell
+#!/bin/bash
+printf "Me llamo $1 \n"
+```
+Y para ejecutarlo usaria ./script javi
+
 
 #####Ejercicio 4.6
 #####Varíe el guion anterior para que admita una lista de nombres.
