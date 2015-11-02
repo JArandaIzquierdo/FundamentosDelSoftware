@@ -56,6 +56,13 @@ Y para ejecutarlo usaria ./script javi
 #####Ejercicio 4.6
 #####Varíe el guion anterior para que admita una lista de nombres.
 
+El script seria este:
+```shell
+#!/bin/bash
+printf "Mis amigos son $1 $2 $3 $4  \n"
+```
+Y para ejecutarlo usaria ./script Pepe Luis Paco Maria
+
 
 #####Ejercicio 4.7
 #####Cree tres variables llamadas VAR1, VAR2 y VAR3 con los siguientes valores respectivamente “hola”, “adios” y “14”.
