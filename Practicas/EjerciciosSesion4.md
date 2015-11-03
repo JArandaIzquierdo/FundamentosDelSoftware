@@ -99,6 +99,10 @@ Y para ejecutarlo usaria ./script Pepe Luis Paco Maria
 #####Ejercicio 4.9
 #####Indique la línea de orden necesaria para buscar todos los archivos a partir del directorio home de usuario ($HOME) que tengan un tamaño menor de un bloque. ¿Cómo la modificaría para que además imprima el resultado en un archivo que se cree dentro del directorio donde nos encontremos y que se llame archivosP?
 
+	find $HOME -size -1
+    Para que imprima el resultado de la orden en un archivo llamado archivosP:
+    find $HOME -size -1 > archivosP
+
 #####Ejercicio 4.10
 #####Indique cómo buscaría todos aquellos archivos del directorio actual que contengan la palabra “ejemplo”.
 
