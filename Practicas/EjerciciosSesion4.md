@@ -92,9 +92,9 @@ Y para ejecutarlo usaria ./script Pepe Luis Paco Maria
     
 #####Ejercicio 4.8
 #####Cree un alias que se llame ne (nombrado así para indicar el número de elementos) y que devuelva el número de archivos que existen en el directorio actual. ¿Qué cambiaría si queremos que haga lo mismo pero en el directorio home correspondiente al usuario que lo ejecuta?
-
-
-
+	alias ne='ls -A | wc -l'
+    Si queremos que lo haga en el directorio home: 
+    alias ne='cd;ls -A | wc -l'
 
 #####Ejercicio 4.9
 #####Indique la línea de orden necesaria para buscar todos los archivos a partir del directorio home de usuario ($HOME) que tengan un tamaño menor de un bloque. ¿Cómo la modificaría para que además imprima el resultado en un archivo que se cree dentro del directorio donde nos encontremos y que se llame archivosP?
