@@ -68,27 +68,27 @@ Y para ejecutarlo usaria ./script Pepe Luis Paco Maria
 #####Cree tres variables llamadas VAR1, VAR2 y VAR3 con los siguientes valores respectivamente “hola”, “adios” y “14”.
 	a) Imprima los valores de las tres variables en tres columnas con 15 caracteres de ancho.
     
-    
+    printf "%-15s %-15s %-15d\n" $VAR1 $VAR2 $VAR3
     
 	b) ¿Son variables locales o globales?
     
-    
+    Son variasbles locales
     
 	c) Borre la variable VAR2.
     
-    
+    unset VAR2
     
 	d) Abra otra ventana de tipo terminal, ¿puede visualizar las dos variables restantes?
     
-    
+    No
     
 	e) Cree una variable de tipo vector con los valores iniciales de las tres variables.
     
-    
+    VAR4=(hola adios 14)
     
 	f) Muestre el segundo elemento del vector creado en el apartado e.
     
-    
+    echo ${VAR4[1]}
     
 #####Ejercicio 4.8
 #####Cree un alias que se llame ne (nombrado así para indicar el número de elementos) y que devuelva el número de archivos que existen en el directorio actual. ¿Qué cambiaría si queremos que haga lo mismo pero en el directorio home correspondiente al usuario que lo ejecuta?
