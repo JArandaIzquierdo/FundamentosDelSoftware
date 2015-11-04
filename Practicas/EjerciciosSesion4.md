@@ -106,6 +106,8 @@ Y para ejecutarlo usaria ./script Pepe Luis Paco Maria
 #####Ejercicio 4.10
 #####Indique cómo buscaría todos aquellos archivos del directorio actual que contengan la palabra “ejemplo”.
 
+	grep ejemplo *
+
 #####Ejercicio 4.11
 #####Complete la información de find y grep utilizando para ello la orden man.
 
