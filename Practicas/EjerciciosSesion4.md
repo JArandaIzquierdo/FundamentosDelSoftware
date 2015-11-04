@@ -122,7 +122,7 @@ Y para ejecutarlo usaria ./script Pepe Luis Paco Maria
 #####Ejercicio 4.14
 #####Modifique el ejercicio 8 de forma que, en vez de un alias, sea un guion llamado numE el que devuelva el número de archivos que existen en el directorio que se le pase como argumento.
 
-
+[Solucion al Ejercicio 4.14](https://github.com/JArandaIzquierdo/FundamentosDelSoftware/blob/master/Practicas/Scrips/Ejercicio4-14)
 
 
 
