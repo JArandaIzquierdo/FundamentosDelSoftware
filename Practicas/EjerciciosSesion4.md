@@ -115,6 +115,8 @@ Y para ejecutarlo usaria ./script Pepe Luis Paco Maria
 #####Ejercicio 4.12
 #####Indique cómo buscaría si un usuario dispone de una cuenta en el sistema.
 
+	cat /etc/passwd | cut -d: -f1 | grep nombreUsuario
+
 #####Ejercicio 4.13
 #####Indique cómo contabilizar el número de ficheros de la propia cuenta de usuario que no tengan permiso de lectura para el resto de usuarios.
 
