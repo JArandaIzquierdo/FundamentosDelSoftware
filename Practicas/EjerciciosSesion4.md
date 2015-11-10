@@ -120,6 +120,7 @@ Y para ejecutarlo usaria ./script Pepe Luis Paco Maria
 #####Ejercicio 4.13
 #####Indique cómo contabilizar el número de ficheros de la propia cuenta de usuario que no tengan permiso de lectura para el resto de usuarios.
 
+	
 
 #####Ejercicio 4.14
 #####Modifique el ejercicio 8 de forma que, en vez de un alias, sea un guion llamado numE el que devuelva el número de archivos que existen en el directorio que se le pase como argumento.
