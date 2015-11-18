@@ -24,6 +24,14 @@
 
 #####Ejercicio 5.3: Utilizando el operador de división, ponga un caso concreto donde se aprecie que la asignación abreviada es equivalente a la asignación completa, es decir, que x/=y equivale a x=x/y.
 
+	x=10
+    y=5
+    
+    echo $((x/=y))
+    2
+	
+    echo $((x=x/y))
+    2
 #####Ejercicio 5.4: Compruebe qué ocurre si en el ejemplo anterior utiliza comillas dobles o simples para acotar todo lo que sigue a la orden echo. ¿Qué sucede si se acota entre comillas dobles solamente la expresión aritmética que se quiere calcular?, ¿y si se usan comillas simples?
 
 
