@@ -32,7 +32,24 @@
 	
     echo $((x=x/y))
     2
+
 #####Ejercicio 5.4: Compruebe qué ocurre si en el ejemplo anterior utiliza comillas dobles o simples para acotar todo lo que sigue a la orden echo. ¿Qué sucede si se acota entre comillas dobles solamente la expresión aritmética que se quiere calcular?, ¿y si se usan comillas simples?
+	echo 6/5|bc -l
+    1.20000000000000000000
+    
+    echo "6/5|bc -l"
+    6/5|bc -l
+    
+    echo '6/5|bc -l'
+    6/5|bc -l
+    
+    echo "6/5"|bc -l
+    1.20000000000000000000
+    
+    echo '6/5'|bc -l
+    1.20000000000000000000
+
+	
 
 
 #####Ejercicio 5.5: Calcule con decimales el resultado de la expresión aritmética (3-2)/5. Escriba todas las expresiones que haya probado hasta dar con una respuesta válida. Utilizando una solución válida, compruebe qué sucede cuando la expresión aritmética se acota entre comillas dobles; ¿qué ocurre si se usan comillas simples?, ¿y si se ponen apóstrofos inversos?
