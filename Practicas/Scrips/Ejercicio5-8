@@ -1,0 +1,8 @@
+#! /bin/bash
+a=$1
+b=$2
+echo "a es igual a: "$a
+echo "b es igual a: "$b
+echo "a y b son igules: " $[$a==$b]
+echo "a es menor que b : " $[$a<$b]
+echo "b es menor que a : "$[$a>$b]
