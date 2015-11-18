@@ -4,6 +4,11 @@
 
 #####Ejercicio 5.1: Utilizando una variable que contenga el valor entero 365 y otra que guarde el número del día actual del año en curso, realice la misma operación del ejemplo anterior usando cada una de las diversas formas de cálculo comentadas hasta el momento, es decir, utilizando expr, $(( ... )) y $[ ... ].
 
+	dia=365
+    fechaActual=$(date +%j)
+	echo "Faltan $(( (dia - fechaActual) / 7 )) semanas hasta fin de año"
+    echo "Faltan $[ (dia - fechaActual) / 7 ] semanas hasta fin de año"
+
 #####Ejercicio 5.2: Realice las siguientes operaciones para conocer el funcionamiento del operador de incremento como sufijo y como prefijo. Razone el resultado obtenido en cada una de ellas:
 	$ v=1
 	$ echo $v
