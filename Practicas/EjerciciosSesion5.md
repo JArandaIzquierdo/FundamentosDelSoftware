@@ -12,10 +12,15 @@
 #####Ejercicio 5.2: Realice las siguientes operaciones para conocer el funcionamiento del operador de incremento como sufijo y como prefijo. Razone el resultado obtenido en cada una de ellas:
 	$ v=1
 	$ echo $v
-	$ echo $((v++)) $ echo $v
+    1
+	$ echo $((v++))
+    1
+    $ echo $v
+    2
 	$ echo $((++v))
+    2
 	$ echo $v
-
+	3
 
 #####Ejercicio 5.3: Utilizando el operador de división, ponga un caso concreto donde se aprecie que la asignación abreviada es equivalente a la asignación completa, es decir, que x/=y equivale a x=x/y.
 
