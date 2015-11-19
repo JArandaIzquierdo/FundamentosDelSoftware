@@ -1,6 +1,7 @@
 #! /bin/bash
 
-EsPlano = `test -f $1 && test -x $1`
+esTextPlano=`test -f $1 && test -x $1 echo true || echo false`
+esEnlace=`test -h $1 && echo true || echo false`
 
-
-echo "El texto es plano:$EsPlano "
+echo "El texto es plano: $esTextPlano"
+echo "El enlace simbolico $esEnlace"
