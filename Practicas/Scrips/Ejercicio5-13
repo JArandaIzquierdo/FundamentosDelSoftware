@@ -1,0 +1,18 @@
+#! /bin/bash
+if [ $1 == ‘-h’  ]; then
+      echo "Uso: ./5_13multiplo numero"
+      echo "Donde el parametro numero es el numero con el cual se queire evaluar
+      si el multiplo o no"
+      echo "Ejemplo ./5_13multiplo 5"
+else
+      let diaActual=$ (date +%j)
+      let totalDias=365
+      let diasRestantes=$totalDias-$diaActual
+      let multiplo=$diasRestantes%$1
+
+      if [ $multiplo -eq 0 ]; then
+            echo "El nuemro de dias restantes hasta fin de año ($diasRestantes) Si es multiplo de $1"
+      else
+            echo "El numero de dias restantates hasta fin de año ($diasRestantes) No es multiplo de $1"
+      fi
+fi

@@ -1,0 +1,13 @@
+#! /bin/bash
+propietario='ls -l /bin/ls | cut -d " " -f 3'
+permisos= ls -l /bin/ls | cut -d " " -f 1 | grep -e '.r........$'
+permisos=$?
+
+if [ propietario = $1 ];then
+      echo "El usuario $1 es el propietario del archivo"
+      if [ $permisos -eq 0 ]; then
+            echo "El usuario $1 tiene permiso de lectura sobre el archivo"
+      fi
+else
+      echo "El usuario $1 no es el propietario del archivo"
+fi

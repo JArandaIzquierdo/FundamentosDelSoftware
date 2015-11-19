@@ -1,0 +1,13 @@
+#! /bin/bash
+if [ echo $1 | grep -e '^.$' ]; then
+      echo "Es un unico caracter"
+      if [ echo $1 | grep [A-Z] ]; then
+            echo "Es una letra mayuscula"
+      else if [ echo $1 | grep [a-z] ]; then
+            echo "Es una letra minuscula"
+      else
+            echo "No es una letra"
+      fi
+else
+      echo "No es un solo caracter"
+fi 
