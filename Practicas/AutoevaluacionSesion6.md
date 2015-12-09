@@ -8,3 +8,4 @@
 [Solucion ejercicio 6.2](https://github.com/JArandaIzquierdo/FundamentosDelSoftware/blob/master/Practicas/Scrips/Ejercicio6-2)
 
 #####3.Para el ejercicio 6.5, tu solucion es:
+[Solucion ejercicio 6.5](https://github.com/JArandaIzquierdo/FundamentosDelSoftware/blob/master/Practicas/Scrips/Ejercicio6-5)
