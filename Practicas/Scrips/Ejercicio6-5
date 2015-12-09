@@ -1,0 +1,10 @@
+#! /bin/bash
+while true;
+do
+      printf "Introduzca un numero: \n"
+      read numero
+      if [ $numero -gt 0 ] && [ $numero -lt 10 ]; then
+            printf "Numero correcto \n"
+            break
+      fi
+done
