@@ -11,6 +11,16 @@
 
 #####Ejercicio 7.4. Escribir un guion que escriba números desde el 1 en adelante en intervalos de un segundo ¿Cómo se podría, desde otro terminal, detener la ejecución de dicho proceso, reanudarlo y terminar definitivamente su ejecución?
 [Solucion Ejercicio 7.4](https://github.com/JArandaIzquierdo/FundamentosDelSoftware/blob/master/Practicas/Scrips/Ejercicio7-4)
+Detener la ejecucion desde otro terminal:
+
+	kill -STOP 'ps -A .o pid, cmd | grep 7-4impnum | head -n 1 | cut -d " " -f 1'
+Reanudar la ejecucion desde otro terminal:
+
+	kill -CONT 'ps -A .o pid, cmd | grep 7-4impnum | head -n 1 | cut -d " " -f 1'
+
+Terminar la ejecucion desde otro terminal:
+
+	kill -TERM 'ps -A .o pid, cmd | grep 7-4impnum | head -n 1 | cut -d " " -f 1'
 
 #####Ejercicio 7.5. ¿Se puede matar un proceso que se encuentra suspendido? En su caso, ¿cómo? 
 
