@@ -7,8 +7,10 @@
 #####Ejercicio 7.2. Aplicar las herramientas de depuración vistas en la sección 2 para la detección de errores durante el desarrollo de los guiones propuestos como ejercicios en la práctica 6.
 
 #####Ejercicio 7.3. Escribir un guion que nos dé el nombre del proceso del sistema que consume más memoria.
+[Solucion Ejercicio 7.3]()
 
 #####Ejercicio 7.4. Escribir un guion que escriba números desde el 1 en adelante en intervalos de un segundo ¿Cómo se podría, desde otro terminal, detener la ejecución de dicho proceso, reanudarlo y terminar definitivamente su ejecución?
+[Solucion Ejercicio 7.4](https://github.com/JArandaIzquierdo/FundamentosDelSoftware/blob/master/Practicas/Scrips/Ejercicio7-4)
 
 #####Ejercicio 7.5. ¿Se puede matar un proceso que se encuentra suspendido? En su caso, ¿cómo? 
 
