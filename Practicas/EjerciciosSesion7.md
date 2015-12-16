@@ -24,4 +24,6 @@ Terminar la ejecucion desde otro terminal:
 
 #####Ejercicio 7.5. ¿Se puede matar un proceso que se encuentra suspendido? En su caso, ¿cómo? 
 
+Si se puede, con la orden kill pid
+
 #####Ejercicio 7.6. ¿Qué debemos hacer a la orden top para que nos muestre sólo los procesos nuestros?
