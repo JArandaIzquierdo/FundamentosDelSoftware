@@ -12,6 +12,8 @@ Repositorio para las practicas de Fundamentos del Software 2015-2016
 
 [Sesion 6](https://github.com/JArandaIzquierdo/FundamentosDelSoftware/blob/master/Practicas/EjerciciosSesion6.md)
 
+[Sesion 7](https://github.com/JArandaIzquierdo/FundamentosDelSoftware/blob/master/Practicas/EjerciciosSesion7.md)
+
 ##Ejercicios de las Auto-evaluaciones
 [Auto-evaluacion Sesion 2](https://github.com/JArandaIzquierdo/FundamentosDelSoftware/blob/master/Practicas/AutoevaluacionSesion2.md)
 
@@ -22,3 +24,5 @@ Repositorio para las practicas de Fundamentos del Software 2015-2016
 [Auto-evaluacion Sesion 5](https://github.com/JArandaIzquierdo/FundamentosDelSoftware/blob/master/Practicas/AutoevaluacionSesion5.md)
 
 [Auto-evaluacion Sesion 6](https://github.com/JArandaIzquierdo/FundamentosDelSoftware/blob/master/Practicas/AutoevaluacionSesion6.md)
+
+[Auto-evaluacion Sesion 7](https://github.com/JArandaIzquierdo/FundamentosDelSoftware/blob/master/Practicas/AutoevaluacionSesion7.md)
