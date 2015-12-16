@@ -27,3 +27,4 @@ Terminar la ejecucion desde otro terminal:
 Si se puede, con la orden kill pid
 
 #####Ejercicio 7.6. ¿Qué debemos hacer a la orden top para que nos muestre sólo los procesos nuestros?
+	top -U nombre_usuario
