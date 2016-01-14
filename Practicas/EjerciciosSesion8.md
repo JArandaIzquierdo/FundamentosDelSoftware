@@ -137,3 +137,29 @@ cos.o: cos.cpp
 tan.o: tan.cpp
       $(CC) -I$(INCLUDE_DIR) -c tan.cpp
 ```
+
+#####Ejercicio 8.9. Dado el siguiente archivo makefile, explique las dependencias que existen y para qué sirve cada una de las líneas del mismo. Enumere las órdenes que se van a ejecutar a consecuencia de invocar la utilidad make sobre este archivo.
+```shell
+# Nombre archivo: makefileH
+# Uso: make -f makefileH
+# Descripción: Mantiene todas las dependencias entre los módulos que utiliza el
+# programa1.
+# La variable CC indica que vamos a compilar con c++
+CC=g++
+#La varialble CPPFLAGS nos indica nos indica todos los warning que se pueden dar
+CPPFLAGS=-Wall –I./includes
+#SOURCEMODUELS nos indica todos los archivos cpp
+SOURCE_MODULES=main.cpp factorial.cpp hello.cpp
+#OBJECTMODULES nos indica los archivos .o
+OBJECT_MODULES=$(SOURCE_MODULES:.cpp=.o)
+#EXECUTABLE nos indica el nombre del archivo ejecutable que se generara
+EXECUTABLE=programa1
+#all 
+all: $(OBJECT_MODULES) $(EXECUTABLE)
+$(EXECUTABLE): $(OBJECT_MODULES)
+       $(CC) $^ -o $@
+# Regla para obtener los archivos objeto .o que dependerán de los archivos .cpp
+# Aquí, $< y $@ tomarán valores respectivamente main.cpp y main.o y así sucesivamente
+.o: .cpp
+       $(CC) $(CPPFLAGS) $< -o $@
+```
