@@ -70,6 +70,48 @@ clean:
       rm *.o programa2
 ```
 
+#####Ejercicio 8.7. Utilizando como base el archivo makefileG y los archivos fuente asociados, realice los cambios que considere oportunos para que, en la construcción de la biblioteca estática libmates.a, este archivo pase a estar en un subdirectorio denominado libs y se pueda enlazar correctamente con el resto de archivos objeto.
+
+```shell
+# Nombre archivo: makefileG
+# Uso: make –f makefileG
+# Descripción: Mantiene todas las dependencias entre los módulos y la biblioteca
+            # que utiliza el programa2.
+
+# Variable que indica el compilador que se va a utilizar
+CC=g++
+
+# Variable que indica el directorio en donde se encuentran los archivos de cabecera
+INCLUDE_DIR= ./includes
+
+# Variable que indica el directorio en donde se encuentran las bibliotecas
+LIB_DIR= ./
+
+#Variable que indica las opciones que se le va a pasar al compilador
+CPPFLAGS= -Wall
+
+programa2: main2.o factorial.o hello.o ./libs/libmates.a
+      $(CC) -L$(LIB_DIR) -o $@ main2.o factorial.o hello.o -lmates
+main2.o: main2.cpp
+      $(CC) -I$(INCLUDE_DIR) -c main2.cpp
+factorial.o: factorial.cpp
+      $(CC) -I$(INCLUDE_DIR) -c factorial.cpp
+hello.o: hello.cpp
+      $(CC) -I$(INCLUDE_DIR) -c hello.cpp
+libmates.a: sin.o cos.o tan.o
+      ar -rvs libmates.a sin.o cos.o tan.o
+sin.o: sin.cpp
+      $(CC) -I$(INCLUDE_DIR) -c sin.cpp
+cos.o: cos.cpp
+      $(CC) -I$(INCLUDE_DIR) -c cos.cpp
+tan.o: tan.cpp
+      $(CC) -I$(INCLUDE_DIR) -c tan.cpp
+clean:
+      rm *.o programa2
+```
+
+#####Ejercicio 8.8. Busque la variable predefinida de make que almacena la utilidad del sistema que permite construir bibliotecas. Recuerde que la orden para construir una biblioteca estática a partir de una serie de archivos objeto es ar (puede usar la orden grep para filtrar el contenido; no vaya a leer línea a línea toda la salida). Usando el archivo makefileG, sustituya la orden ar por su variable correspondiente.
+
 ```shell
 # Nombre archivo: makefileG
 # Uso: make –f makefileG
